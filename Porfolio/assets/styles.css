@@ -1,0 +1,346 @@
+@font-face{
+    font-family: themillion;
+    src: url(letra1.ttf.ttf);
+}
+h1 {
+    font-family:themillion;
+}
+
+
+
+
+
+
+body{
+    background-image: url(/assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);
+}
+
+ .body{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+.container{
+    
+    height: 500px;
+    width: 300px; 
+    box-shadow: 0 10px 40px #00ffff;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: sans-serif;
+    margin-right: 400px;
+    margin-top: 80px;
+    
+}
+.shape{
+    
+   height: 250px;
+   width: 400px;
+   margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #00ffff ;
+    transform: rotate(25deg);
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    background-image: url(/assets/tito\ photo\ 2.jpg);
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px  rgb(58, 54, 54);
+    transform: rotate(-20deg);
+}
+
+.title{
+    font-size: 15px;
+    padding-bottom: 6px;
+    color: rgb(138, 166, 189);
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: rgb(197, 216, 232);
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 2;
+    color: rgb(138, 166, 189);
+    font-size: 15px;
+
+}
+.icons{
+    margin-top: 15px;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 20px;
+    transition: 3s;
+    color: rgb(185, 197, 207);
+}
+
+.icons i:hover{
+    transform:scale(1.2);
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.logos {
+    width: 150px;
+}
+
+#General{
+    padding: 90px;
+    
+}
+
+#General h2{
+    padding-bottom: 50px;
+}
+
+.General-row{
+    display: flex;
+}
+.General-row-image img{
+    height: 400px;
+    padding-right: 90px;
+}
+
+hr {
+    color: rgb(242, 137, 0);
+}
+
+/* Skills */
+#skills {
+	padding: 90px 0;
+}
+
+#skills h2 {
+	padding-bottom: 50px;
+}
+
+.skills-row {
+	display: flex;
+	padding-bottom: 50px;
+}
+
+.skills-row-left,
+.skills-row-right {
+	width: 50%;
+	display: flex;
+}
+
+.skills-row-left-image,
+.skills-row-right-image {
+	width: 50%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+.skills-row-left-image img,
+.skills-row-right-image img {
+	height: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(167, 199, 226);
+    font-family: 'Abril Fatface', cursive;
+}
+
+h4{
+    color: rgb(167, 199, 226);
+    font-family: 'Abril Fatface', cursive;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+   
+}
+/* educational training */
+
+.imagen-kodigo{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.div-2{
+  
+    padding: 35px;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+.educationalt{
+    padding-top: 80px;
+}
+
+#Educational2{
+    display: flex;
+}
+.div-3{
+  
+    padding: 40px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.table{
+    height: 300px;
+    width: 650px;
+    margin-left: 700px;
+    margin-top: -150px;
+    background-color: rgb(6, 3, 0);  
+    color: beige; 
+}
+
+.workexperience{
+    display: flex;
+    margin-top: 500px;
+    margin-left: 225px;  
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+
+.fontwork{
+    
+    font-family: 'Alkatra', cursive;
+    color: beige;
+    
+}
+
+/* Portfolio */
+
+#containerP{
+    width: 600px;
+    display: flex;
+   margin-top: 80px;
+   margin-left: 40px;
+    
+    
+}
+.card{
+    width: 600px;
+    margin: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgb(42, 41, 41);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 400px;
+    height: 250px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: rgb(167, 199, 226);
+}
+.card .contenido h3{
+    margin-bottom: 15px;
+}
+.card .contenido a{
+    text-decoration:none;
+    display:inline-block ;
+    padding: 10px;
+    margin-top:10px; 
+    color: rgb(167, 199, 226);
+    border: 1px solid rgb(167, 199, 226);
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido a:hover{
+   color:rgba(0,0,0,0.4) ;
+   background: rgb(167, 199, 226);
+}
+
+/* second box */
+#containerPo{
+    width: 600px;
+    display: flex;
+    margin-top: -535px;
+    margin-left: 600px;
+    
+}
+
+.card2{
+    width: 600px;
+    margin: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgb(42, 41, 41);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.card2:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card2 img{
+    width: 400px;
+    height: 250px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.card2 .contenidoo{
+    padding: 15px;
+    text-align: center;
+}
+.card2 .contenidoo p{
+    line-height: 1.5;
+    color: rgb(167, 199, 226);
+}
+.card2 .contenidoo h3{
+    margin-bottom: 15px;
+}
+.card2 .contenidoo a{
+    text-decoration:none;
+    display:inline-block ;
+    padding: 10px;
+    margin-top:10px; 
+    color: rgb(167, 199, 226);
+    border: 1px solid rgb(167, 199, 226);
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card2 .contenidoo a:hover{
+    color:rgba(0,0,0,0.4) ;
+    background: rgb(167, 199, 226);
+ }
+
+ #textPort{
+    color:rgb(167, 199, 226) ;
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-bottom: -80px;
+    
+
+ }
